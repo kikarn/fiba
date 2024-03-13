@@ -21,7 +21,7 @@ printMessage:
 	mov rax, 1 		;Set syscall number 1, write
 	mov rdi, 1 		;fd 1 for stdout, 1st syscall arg
 	mov rsi,message 	;pointer to message in data, 2nd arg in syscall
-	mov rdx, 50 		;print lengt of 20 bytes, 3rd argument in syscall
+	mov rdx, 50 		;print lengt of 50 bytes, 3rd argument in syscall.. Change to length later
 	syscall 		;call write syscall
 	ret			;Return
 
