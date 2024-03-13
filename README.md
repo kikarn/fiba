@@ -31,7 +31,8 @@ Link the object file with the command:
 To Debug with GDB:
 * gdb -q fiba
 
-...
+
+
 fiba$ ./fiba 
 How high to go? Enter the maximum Fibonaci number:55
 1
@@ -108,4 +109,4 @@ How high to go? Enter the maximum Fibonaci number:99999999999
 433494437
 701408733
 1134903170
-...
+
