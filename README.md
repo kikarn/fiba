@@ -32,6 +32,7 @@ To Debug with GDB:
 * gdb -q fiba
   
   
+  
 
 fiba$ ./fiba  
 How high to go? Enter the maximum Fibonaci number:55  
@@ -46,7 +47,7 @@ How high to go? Enter the maximum Fibonaci number:55
 34
   
 fiba$ ./fiba  
-How high to go? Enter the maximum Fibonaci number:543 
+How high to go? Enter the maximum Fibonaci number:543  
 1
 1
 2
