@@ -20,7 +20,7 @@ The sequence will print..
 Just run the program fiba. 
 
 **Or, if you wanna try to assemble the file:**
-* nasm -f elf64 fiba.s
+* nasm -f elf64 fiba.s  
 *(for 64-bit)* 
 
 
@@ -30,11 +30,11 @@ Link the object file with the command:
 
 To Debug with GDB:
 * gdb -q fiba
+  
+  
 
-
-
-fiba$ ./fiba 
-How high to go? Enter the maximum Fibonaci number:55
+fiba$ ./fiba  
+How high to go? Enter the maximum Fibonaci number:55  
 1
 1
 2
@@ -44,9 +44,9 @@ How high to go? Enter the maximum Fibonaci number:55
 13
 21
 34
-
-fiba$ ./fiba 
-How high to go? Enter the maximum Fibonaci number:543
+  
+fiba$ ./fiba  
+How high to go? Enter the maximum Fibonaci number:543 
 1
 1
 2
@@ -61,9 +61,9 @@ How high to go? Enter the maximum Fibonaci number:543
 144
 233
 377
-
-fiba$ ./fiba 
-How high to go? Enter the maximum Fibonaci number:99999999999
+  
+fiba$ ./fiba   
+How high to go? Enter the maximum Fibonaci number:99999999999  
 1
 1
 2
